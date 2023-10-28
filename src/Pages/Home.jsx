@@ -44,7 +44,7 @@ const Home = () => {
           CleanImg={HomeClean}
           star="4.1"
           Discount="Off 30%"
-          Heading="Home Cleaning"
+          Heading="Home Clean"
           Name="By Avishek Sharma"
           sign="$"
           numaric="24"
@@ -53,9 +53,9 @@ const Home = () => {
         <br />
         <ServiceBox
           CleanImg={kitchen}
-          star="4.1"
+          star="4.4"
           Discount="Off 30%"
-          Heading="Kitchen Clea..."
+          Heading="Kitchen Clean"
           Name="By Sahas"
           sign="$"
           numaric="24"
@@ -64,7 +64,7 @@ const Home = () => {
         <br />
         <ServiceBox
           CleanImg="https://www.cleaningiscaring.org/wpd/wp-content/uploads/2022/09/babysitting-600x600.jpg"
-          star="4.1"
+          star="4.7"
           Discount="Off 19%"
           Heading="Baby Sitting"
           Name="By Khushi"
@@ -75,7 +75,7 @@ const Home = () => {
         <br />
         <ServiceBox
           CleanImg={HomeTuition}
-          star="4.1"
+          star="4.9"
           Discount="Off 15%"
           Heading="Home Tuition"
           Name="By Sushil Sharma"
@@ -86,14 +86,17 @@ const Home = () => {
         <br />
         <ServiceBox
           CleanImg={BedRoom}
-          star="4.1"
+          star="4.5"
           Discount="Off 40%"
-          Heading="Room Cleaning"
+          Heading="Room Clean"
           Name="By Aditya"
           sign="$"
           numaric="30"
           hour="/hr"
         />{" "}
+        <br />
+        <br />
+        <br />
         <br />
       </div>
       
