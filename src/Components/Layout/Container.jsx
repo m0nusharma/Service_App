@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Container = ( {children}) => {
+const Container = ({ children }) => {
   return (
-    <div className=' py-[60px]  overflow-auto  '>
-    {children}
+    <div className=" pt-[60px] overflow-auto  ">
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default Container
+export default Container;
