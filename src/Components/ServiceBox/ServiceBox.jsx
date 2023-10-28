@@ -3,9 +3,9 @@ import HomeClean from "../../assets/home clean.jpg";
 
 const ServiceBox = ({CleanImg, star, Discount ,Heading,Name,sign,numaric,hour}) => {
   return (
-    <div className="mx-[20px] row  bg-blue-100 rounded-3 overflow-hidden">
+    <div className="mx-[20px] row  bg-blue-100 rounded-3 overflow-hidden h-[144px]">
       <div className="col-5 border p-0">
-        <img src={CleanImg}  />
+        <img src={CleanImg} className="h-[144px]" />
       </div>
       <div className="col-7 border p-3">
         <div className="flex justify-between items-center">
