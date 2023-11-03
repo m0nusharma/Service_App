@@ -6,7 +6,7 @@ import Category from "../Components/Categrory/Category";
 import CategoryItems from "../Components/CategoryItems/CategoryItems";
 import vacume from "../../src/assets/vacume.jpg";
 import ServiceBox from "../Components/ServiceBox/ServiceBox";
-import HomeClean from "../assets/home clean.jpg";
+import homeClean from "../assets/home.jpg"
 import kitchen from  "../assets/kitchen.jpg"
 import HomeTuition from '../assets/tuition.jpg'
 import BedRoom from '../assets/bedroom.jpg'
@@ -41,11 +41,11 @@ const Home = () => {
       <Category Category="Recomended" />
       <div className="my-2">
         <ServiceBox
-          CleanImg={HomeClean}
+        CleanImg={homeClean}
           star="4.1"
           Discount="Off 30%"
           Heading="Home Clean"
-          Name="By Avishek Sharma"
+          Name="By Avishek "
           sign="$"
           numaric="24"
           hour="/hr"
@@ -78,7 +78,7 @@ const Home = () => {
           star="4.9"
           Discount="Off 15%"
           Heading="Home Tuition"
-          Name="By Sushil Sharma"
+          Name="By Sushil "
           sign="$"
           numaric="50"
           hour="/hr"

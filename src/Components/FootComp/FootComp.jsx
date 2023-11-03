@@ -17,7 +17,7 @@ const FootComp = () => {
           <i className="fa-solid fa-qrcode fs-3 text-white"></i>
         </div>
       </NavLink>
-      <NavLink to="/massage" activeClassName="">
+      <NavLink to="/massege" activeClassName="">
         <i className="fa-brands fa-facebook-messenger text-gray-500 fs-3"></i>
       </NavLink>
 

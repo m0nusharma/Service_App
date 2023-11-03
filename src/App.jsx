@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About/About";
 import Notification from "./Pages/Notification";
-import Massage from "./Pages/Massage";
+import Massege from "./Pages/Massege";
 import Scanner from "./Pages/Scanner";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -24,8 +24,8 @@ function App() {
       element: <Scanner />,
     },
     {
-      path: "/massage",
-      element: <Massage />,
+      path: "/massege",
+      element: <Massege />,
     },
     {
       path: "/notification",

@@ -1,5 +1,5 @@
 import React from "react";
-import HomeClean from "../../assets/home clean.jpg";
+
 
 const ServiceBox = ({CleanImg, star, Discount ,Heading,Name,sign,numaric,hour}) => {
   return (
@@ -14,11 +14,11 @@ const ServiceBox = ({CleanImg, star, Discount ,Heading,Name,sign,numaric,hour}) 
           </i>
           <p>{Discount}</p>
         </div>
-        <p className="fw-bold fs-5 text-[#173d71]">{Heading}</p>
+        <p className="fw-bold fs-6 text-[#173d71]">{Heading}</p>
         <p className="fs-6 text-[#173d71]">{Name}</p>
         <span className="">
           <span className=" text-[#173d71]">
-            {sign}<span className="fs-5 fw-bold">{numaric}</span>{hour}
+            {sign}<span className="fs-6 fw-bold">{numaric}</span>{hour}
           </span>
         </span>
       </div>
