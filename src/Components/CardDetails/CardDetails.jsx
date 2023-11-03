@@ -40,7 +40,7 @@ const CardDetails = ({ card, placeholder }) => {
             id="fname"
             name="fname"
             placeholder="Date Of Expire"
-            className="rounded-2 px-4 py-3  border-none"
+            className="rounded-2 px-4 py-3 border-none w-[100%]"
           />
         </div>
         </div>

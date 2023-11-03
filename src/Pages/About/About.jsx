@@ -32,7 +32,7 @@ const About = () => {
         Img="https://sandbox.elireview.com/wp-content/uploads/2016/12/reed-profile-square.jpg"
         about="Very passionate Developer. very strong about developing or a strong belief in self."
         Point="4.8"
-        name="Kanika Choudhary"
+        name="Kanika"
         profassion="Full stack Devloper"
       />
       <Aboutcard
@@ -44,7 +44,7 @@ const About = () => {
       />
       <Aboutcard
         Img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkDCKNwDGNiRdm06_IZpv18OWI4oZA_yxtruRFw8LkFnBYSy5_YWuGrHYT9b1CAMTUy9c&usqp=CAU"
-        about="An App Developer is a software engineer who's involved in the conceptualization, design, and development of software for phones, smart watches, tablets and more. As"
+        about="An App Developer is a software engineer who's involved in the conceptualization, design, and development of software for phones, smart watches, tablets and more."
         Point="4.2"
         name="Mohit Singh"
         profassion="APP Devloper"
