@@ -12,7 +12,7 @@ const About = () => {
         about=" A full stack developer role is best if you prefer to work on general projects in various fields."
         Point="4.2"
         name="Monu Sharma"
-        profassion="Full stack Devloper"
+        profassion="Full stack Developer"
       />
       <Aboutcard
         Img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWxYdSS1HZql4AL1VbEg57-hKZt6zXwnW5tvBykyHIluMTQP-vnx61EQO6D7qD81iObCk&usqp=CAU"
@@ -33,7 +33,7 @@ const About = () => {
         about="Very passionate Developer. very strong about developing or a strong belief in self."
         Point="4.8"
         name="Kanika"
-        profassion="Full stack Devloper"
+        profassion="Full stack Developer"
       />
       <Aboutcard
         Img="https://www.microsoft.com/en-us/research/uploads/prod/2018/01/profile_square.jpg"
@@ -47,11 +47,11 @@ const About = () => {
         about="An App Developer is a software engineer who's involved in the conceptualization, design, and development of software for phones, smart watches, tablets and more."
         Point="4.2"
         name="Mohit Singh"
-        profassion="APP Devloper"
+        profassion="APP Developer"
       />
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
     </Layout>
   );
 };

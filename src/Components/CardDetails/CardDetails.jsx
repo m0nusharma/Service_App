@@ -15,7 +15,8 @@ const CardDetails = ({ card, placeholder }) => {
           placeholder={placeholder}
           className="rounded-2 px-4 py-3 w-[100%] border-none"
         />
-      </div> <br/>
+      </div>{" "}
+      <br />
       <div className="flex justify-between ">
         <div className="px-1">
           <label for="fname" className="fw-bold py-2 fs-5 text-gray-500">
@@ -43,8 +44,10 @@ const CardDetails = ({ card, placeholder }) => {
             className="rounded-2 px-4 py-3 border-none w-[100%]"
           />
         </div>
-        </div>
-        <button className="btn btn-primary items-center my-3 w-100 p-2">Submit</button>
+      </div>
+      <button className="btn btn-primary items-center my-3 w-100 p-2">
+        Submit
+      </button>
       <br />
       <br />
       <br />
