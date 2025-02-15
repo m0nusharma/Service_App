@@ -10,6 +10,7 @@ import homeClean from "../assets/home.jpg"
 import kitchen from  "../assets/kitchen.jpg"
 import HomeTuition from '../assets/tuition.jpg'
 import BedRoom from '../assets/bedroom.jpg'
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,10 +22,11 @@ const Home = () => {
       />
       <Category Category="Category" />
       <div className="flex justify-between px-[20px]">
+        <Link to = "/notification" state = "Cleaning">
         <CategoryItems
           Images="https://img.freepik.com/free-vector/cleaner-with-cleaning-products-housekeeping-service_18591-52057.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698364800&semt=ais"
           ItemName="Cleaning"
-        />
+        /></Link>
         <CategoryItems
           Images="https://img.freepik.com/premium-vector/worker-uniform-with-tool-case-repair-service-design_261524-1728.jpg"
           ItemName="Repairing"

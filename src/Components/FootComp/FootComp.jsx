@@ -22,7 +22,7 @@ const FootComp = () => {
       </NavLink>
 
       <NavLink to="/notification" activeClassName="">
-        <i className="fa-solid fa-bell text-gray-500 fs-3"></i>
+      <i className="fa-solid fa-bell text-gray-500 fs-3"></i>
       </NavLink>
     </div>
   );

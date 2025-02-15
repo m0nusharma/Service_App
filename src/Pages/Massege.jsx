@@ -56,7 +56,7 @@ const Massege = () => {
         Name="Aditya"
         Text="nehi ja raha kahi"
         num="1"
-        view="today"
+        vi       ew="today"
       />
       <MsgBox
         Img="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
