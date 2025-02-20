@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nextui-org/react": "^2.1.13",
+
     "bootstrap": "^5.3.0",
     "framer-motion": "^10.16.4",
     "preline": "^1.9.0",

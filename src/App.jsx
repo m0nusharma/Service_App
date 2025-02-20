@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About/About";
 import Notification from "./Pages/Notification";
 import Massege from "./Pages/Massege";
-import Scanner from "./Pages/Scanner";
+import Scanner from "./Pages/Services";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 

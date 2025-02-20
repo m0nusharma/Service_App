@@ -20,7 +20,7 @@ const Home = () => {
         Caption="What Service do you Need?"
         UserImg={vacume}
       />
-      <Category Category="Category" />
+      {/* <Category Category="Category" />
       <div className="flex justify-between px-[20px]">
         <Link to = "/notification" state = "Cleaning">
         <CategoryItems
@@ -39,7 +39,7 @@ const Home = () => {
           Images="https://previews.123rf.com/images/dvoriankin/dvoriankin1608/dvoriankin160800015/64360676-illustration-of-a-smiling-house-painter-painting-wall-with-paint-roller.jpg"
           ItemName="Painting"
         />
-      </div>
+      </div> */}
       <Category Category="Recomended" />
       <div className="my-2">
         <ServiceBox
