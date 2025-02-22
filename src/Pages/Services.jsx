@@ -57,7 +57,7 @@ const CategoryList = ({ categories, onSelect }) => (
           onClick={() => onSelect(category)}
         >
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-indigo-600">{category.name}</h3>
+            <h3 className="text-2xl font-bold text-[#FB923C]">{category.name}</h3>
             <div className="flex items-center text-gray-600">
               <span className="text-sm">{category.subServices.length} specialized services</span>
             </div>
@@ -65,7 +65,7 @@ const CategoryList = ({ categories, onSelect }) => (
               {category.subServices.slice(0, 3).map((service) => (
                 <span 
                   key={service} 
-                  className="px-3 py-1 text-sm bg-indigo-50 text-indigo-600 rounded-full font-medium"
+                  className="px-3 py-1 text-sm bg-indigo-50 text-[#FB923C] rounded-full font-medium"
                 >
                   {service}
                 </span>
@@ -137,7 +137,7 @@ const ServiceForm = ({ category, onSubmit }) => {
 
   return (
     <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6">
-      <h2 className="text-2xl font-bold text-center mb-6 text-indigo-600">
+      <h2 className="text-2xl font-bold text-center mb-6 text-[#FB923C]">
         {category.name} Services
       </h2>
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -246,7 +246,7 @@ const PriceDisplay = ({ service }) => (
   <div className="max-w-2xl mx-auto mt-6 bg-white rounded-lg shadow-md">
     {service && (
       <div className="p-6 space-y-4">
-        <h3 className="text-xl font-bold text-indigo-600">Service Details</h3>
+        <h3 className="text-xl font-bold text-[#FB923C]">Service Details</h3>
         <div className="space-y-2">
           <p className="text-gray-600">Category: {service.category}</p>
           <p className="text-gray-600">Service: {service.subService}</p>
@@ -257,7 +257,7 @@ const PriceDisplay = ({ service }) => (
           {service.details.subjectType && <p className="text-gray-600">Type: {service.details.subjectType}</p>}
           {service.details.priceKey && <p className="text-gray-600">Variant: {service.details.priceKey}</p>}
           <div className="mt-6 pt-4 border-t">
-            <p className="text-2xl font-bold text-indigo-600">Total Price: ₹{service.price}</p>
+            <p className="text-2xl font-bold text-[#FB923C]">Total Price: ₹{service.price}</p>
             <button className="w-full mt-4 py-2 px-4 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
               Book Now
             </button>
@@ -303,23 +303,21 @@ function Services() {
 
     setSearchResults(results);
   };
-
   const handleSearchResultClick = (result) => {
     setSelectedCategory(result.category);
     setSearchQuery('');
     setSearchResults([]);
     setIsSearching(false);
   };
-
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto py-8 px-4">
-        <h1 className="text-4xl font-bold text-center mb-8 text-indigo-600">
+      <div className="max-w-7xl mx-auto py-8 px-4 ">
+        <h1 className="text-4xl font-bold text-center mb-8 text-[#FB923C]">
           Professional Service Marketplace
         </h1>
 
         {/* Search Bar */}
-        <div className="max-w-2xl mx-auto mb-8 relative">
+        <div className="max-w-2xl mx-auto mb-8 relative ">
           <div className="relative">
             <input
               type="text"
@@ -337,19 +335,18 @@ function Services() {
               </button>
             )}
           </div>
-
           {/* Search Results Dropdown */}
           {isSearching && searchResults.length > 0 && (
-            <div className="absolute w-full mt-2 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto">
+            <div className="absolute w-full mt-2 bg-white rounded-lg shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto ">
               {searchResults.map((result, index) => (
                 <div
                   key={`${result.category.id}-${result.service}-${index}`}
-                  className="p-4 hover:bg-gray-50 cursor-pointer border-b last:border-b-0"
+                  className="p-4 hover:bg-gray-50 cursor-pointer border-b last:border-b-0 "
                   onClick={() => handleSearchResultClick(result)}
                 >
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-indigo-600 font-medium">{result.service}</p>
+                      <p className="text-[#FB923C] font-medium">{result.service}</p>
                       <p className="text-sm text-gray-500">{result.category.name}</p>
                     </div>
                     <span className="text-gray-400">→</span>
@@ -358,7 +355,6 @@ function Services() {
               ))}
             </div>
           )}
-
           {/* No Results Message */}
           {isSearching && searchQuery && searchResults.length === 0 && (
             <div className="absolute w-full mt-2 bg-white rounded-lg shadow-lg border border-gray-200 z-50">
@@ -368,7 +364,6 @@ function Services() {
             </div>
           )}
         </div>
-
         {!selectedCategory ? (
           <div>
             <h2 className="text-2xl font-semibold text-center mb-6 text-gray-800">
@@ -382,13 +377,13 @@ function Services() {
         ) : (
           <div className="space-y-6">
             <button 
-              className="flex items-center text-indigo-600 hover:text-indigo-800 transition-colors"
+              className="flex items-center text-white hover:text-[#ffab67] transition-colors p-2 bg-[#FB923C] rounded-2"
               onClick={() => {
                 setSelectedCategory(null);
                 setSelectedService(null);
               }}
             >
-              ← Back to Categories
+               Back to Categories
             </button>
             <ServiceForm 
               category={selectedCategory} 

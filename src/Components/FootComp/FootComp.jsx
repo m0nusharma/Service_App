@@ -14,7 +14,7 @@ const FootComp = () => {
 
       <NavLink to="/scanner" activeClassName="">
         <div className="h-[60px] w-[60px] bg-orange-400 rounded-full relative bottom-[25px] shadow-lg flex justify-center items-center">
-          <i className="fa-solid fa-qrcode fs-3 text-white"></i>
+        <i className="fa-solid fa-layer-group text-white text-2xl"></i>
         </div>
       </NavLink>
       <NavLink to="/massege" activeClassName="">
@@ -22,7 +22,7 @@ const FootComp = () => {
       </NavLink>
 
       <NavLink to="/notification" activeClassName="">
-      <i className="fa-solid fa-bell text-gray-500 fs-3"></i>
+      <i className="fa-solid fa-qrcode fs-3 text-gray-500 fs-3"></i>
       </NavLink>
     </div>
   );
